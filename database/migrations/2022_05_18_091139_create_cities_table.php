@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('cities', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('slug');
+            $table->unsignedBigInteger('state_id');
+            $table->boolean('active')->default(true);
             $table->timestamps();
         });
     }
