@@ -31,6 +31,12 @@ Route::middleware("auth:api")->group(function () {
 
     Route::prefix('getall')->group(function () {
         Route::get('horecas', [APIController::class, 'getAllHorecas']);
+        Route::get('categories', [APIController::class, 'getAllCategories']);
+        Route::get('offers', [APIController::class, 'getAllOffers']);
+        Route::get('users', [APIController::class, 'getAllUsers']);
+        Route::get('cities', [APIController::class, 'getAllCities']);
+        Route::get('states', [APIController::class, 'getAllStates']);
+
     });
     
 });

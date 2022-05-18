@@ -15,7 +15,7 @@ class APIController extends Controller
     //
     public function getAllHorecas()
     {
-        $horecas = Horeca::all();
+        $horecas = Horeca::where('active', 1)->get();
         return response()->json($horecas);
     }
 
