@@ -11,7 +11,7 @@ use App\Http\Controllers\GithubController;
 
 
 // Guest Routes
-Route::get('/',[HomeController::class,'index'])->name('index');
+Route::get('/',[GuestController::class,'index'])->name('index');
 
 
 Route::get('/logout',function (){
