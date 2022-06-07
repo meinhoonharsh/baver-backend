@@ -8,8 +8,7 @@ class GuestController extends Controller
 {
     //
 
-    public function index()
-    {
-        return view('pages.guest.home');
+    public function index(){
+        return view('pages.cs');
     }
 }
