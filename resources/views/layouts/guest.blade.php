@@ -87,7 +87,6 @@
             background: none !important;
             padding: 0 !important;
         }
-
     </style>
     <link rel='stylesheet' id='wp-block-library-css'
         href='/assets/findus/wp-includes/css/dist/block-library/style.min.css?ver=5.3.12' type='text/css' media='all'>
@@ -104,7 +103,6 @@
         media='all'>
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
-
     </style>
     <link rel='stylesheet' id='woocommerce-layout-css'
         href='/assets/findus/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.0.4' type='text/css'
@@ -113,7 +111,6 @@
         .infinite-scroll .woocommerce-pagination {
             display: none;
         }
-
     </style>
     <link rel='stylesheet' id='woocommerce-smallscreen-css'
         href='/assets/findus/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.0.4'
@@ -125,7 +122,6 @@
         .woocommerce form .form-row .required {
             visibility: visible;
         }
-
     </style>
     <link rel='stylesheet' id='select2-css'
         href='/assets/findus/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.0.4' type='text/css'
@@ -176,7 +172,6 @@
     <style id='findus-template-inline-css' type='text/css'>
         /* check main color */
         /* button for theme */
-
     </style>
     <link rel='stylesheet' id='findus-style-css' href='/assets/findus/wp-content/themes/findus/style.css?ver=3.2'
         type='text/css' media='all'>
@@ -214,7 +209,6 @@
             .woocommerce-product-gallery {
                 opacity: 1 !important;
             }
-
         </style>
     </noscript>
     <style type="text/css">
@@ -223,7 +217,6 @@
             padding: 0 !important;
             margin: 0 !important;
         }
-
     </style>
     <meta name="generator"
         content="Powered by Slider Revolution 6.1.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
@@ -268,31 +261,39 @@
         .post-grid-v1 .entry-title {
             margin: 10px 0;
         }
-		@media (min-width:1200px){
-				.entry-title{
-					font-size:27px;
-				}
-				.apus-breadscrumb {
-				margin-bottom: 50px;
-			}
-			}
-			.widget .widget-title{
-				font-size:18px;
-			}
-			@media(max-width:767px){
-				.slick-carousel .slick-prev{
-					left:10px;
-				}
-				.slick-carousel .slick-next{
-					right:10px;
-				}
-				.category-banner-list .banner-image img{
-					width: 100%;
-				}
-				.testimonials-item{
-					padding:0 30px;
-				}
-			}
+
+        @media (min-width:1200px) {
+            .entry-title {
+                font-size: 27px;
+            }
+
+            .apus-breadscrumb {
+                margin-bottom: 50px;
+            }
+        }
+
+        .widget .widget-title {
+            font-size: 18px;
+        }
+
+        @media(max-width:767px) {
+            .slick-carousel .slick-prev {
+                left: 10px;
+            }
+
+            .slick-carousel .slick-next {
+                right: 10px;
+            }
+
+            .category-banner-list .banner-image img {
+                width: 100%;
+            }
+
+            .testimonials-item {
+                padding: 0 30px;
+            }
+        }
+
         .details-product .image-mains {
             padding: 0;
         }
@@ -314,7 +315,6 @@
             font-size: 20px;
 
         }
-
     </style>
 </head>
 
@@ -327,387 +327,28 @@
     <div id="wrapper-container" class="wrapper-container">
 
 
-        <div id="apus-mobile-menu" class="apus-offcanvas hidden-lg">
-            <button type="button" class="btn btn-toggle-canvas" data-toggle="offcanvas">
-                <i class="ti-close"></i>
-            </button>
-            <div class="apus-offcanvas-body">
-                <div class="header-top-mobile clearfix">
-                    <div class="add-listing">
-                        <a class="btn btn-addlisting btn-theme" href="submit-listing/index.htm"><i
-                                class="ti-plus" aria-hidden="true"></i> Add Listing</a>
-                    </div>
-                </div>
-                <nav class="navbar navbar-offcanvas navbar-static" role="navigation">
-                    <div class="navbar-collapse navbar-offcanvas-collapse">
-                        <ul id="main-mobile-menu" class="nav navbar-nav">
-                            <li id="menu-item-66" class="has-submenu active menu-item-66"><a href="#">Home</a> <span
-                                    class="icon-toggle"><i class="ti-angle-down"></i></span>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-75" class="active menu-item-75"><a href="index.htm">Home 1</a>
-                                    </li>
-                                    <li id="menu-item-73" class="menu-item-73"><a href="home-2/index.htm">Home 2</a>
-                                    </li>
-                                    <li id="menu-item-72" class="menu-item-72"><a href="home-3/index.htm">Home 3</a>
-                                    </li>
-                                    <li id="menu-item-71" class="menu-item-71"><a href="home-4/index.htm">Home 4</a>
-                                    </li>
-                                    <li id="menu-item-251" class="menu-item-251"><a href="home-5/index.htm">Home 5</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-307" class="has-submenu menu-item-307"><a
-                                    href="listings/index.htm">Listings</a> <span class="icon-toggle"><i
-                                        class="ti-angle-down"></i></span>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-621" class="menu-item-621"><a
-                                            href="listing-full/index.htm">Listings &#8211; Full</a></li>
-                                    <li id="menu-item-615" class="menu-item-615"><a
-                                            href="listing-with-sidebar/index.htm">Listings &#8211; Sidebar</a></li>
-                                    <li id="menu-item-616" class="menu-item-616"><a
-                                            href="listing-half-map/index.htm">Listings &#8211; Half Map</a></li>
-                                    <li id="menu-item-617" class="menu-item-617"><a
-                                            href="listing-list/index.htm">Listings &#8211; List</a></li>
-                                    <li id="menu-item-618" class="menu-item-618"><a
-                                            href="listing/spotlight-club/index.htm">Listing Detail</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-70" class="has-submenu menu-item-70"><a href="blog/index.htm">Blog</a>
-                                <span class="icon-toggle"><i class="ti-angle-down"></i></span>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-623" class="menu-item-623"><a
-                                            href="blog/index-1.htm?_preset=1580455841">Blog &#8211; Sidebar</a></li>
-                                    <li id="menu-item-624" class="menu-item-624"><a
-                                            href="blog/index-2.htm?_preset=1580455912">Blog &#8211; Full</a></li>
-                                    <li id="menu-item-622" class="menu-item-622"><a
-                                            href="blog/index-3.htm?_preset=1580455697">Blog &#8211; List</a></li>
-                                    <li id="menu-item-625" class="menu-item-625"><a
-                                            href="why-people-use-listing-hub/index.htm">Blog Detail</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-76" class="has-submenu menu-item-76"><a href="#">Pages</a> <span
-                                    class="icon-toggle"><i class="ti-angle-down"></i></span>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-1387" class="menu-item-1387"><a href="shop/index.htm">Shop</a>
-                                    </li>
-                                    <li id="menu-item-67" class="menu-item-67"><a href="contact/index.htm">Contact</a>
-                                    </li>
-                                    <li id="menu-item-69" class="menu-item-69"><a href="pricing/index.htm">Pricing</a>
-                                    </li>
-                                    <li id="menu-item-68" class="menu-item-68"><a href="404-2/index.htm">404</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="over-dark"></div>
-        <div id="apus-header-mobile" class="header-mobile hidden-lg clearfix">
-            <div class="container">
-                <div class="row flex-middle">
-                    <div class="col-xs-7 left-inner">
-                        <div class="flex-middle">
-                            <div class="active-mobile">
-                                <button data-toggle="offcanvas" class="btn btn-sm btn-offcanvas offcanvas"
-                                    type="button">
-                                    <i class="ti-align-left" aria-hidden="true"></i>
-                                </button>
-                            </div>
-                            <div class="logo logo-theme">
-                                <a href="index.htm">
-                                    <img src="/assets/findus/wp-content/themes/findus/images/logo.png" alt="Findus">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-5">
-                        <div class="flex-middle">
-                            <div class="ali-right">
-                                <div class="apus-top-cart cart">
-                                    <a class="dropdown-toggle mini-cart" href="#" title="View your shopping cart">
-                                        <i class="ti-shopping-cart"></i>
-                                        <span class="count">0</span>
-                                        <span class="total-minicart hidden"><span
-                                                class="woocommerce-Price-amount amount"><span
-                                                    class="woocommerce-Price-currencySymbol">&#36;</span>0</span></span>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <div class="widget_shopping_cart_content">
-                                            <div class="shopping_cart_content">
-                                                <div class="cart_list ">
 
-
-                                                    <p class="total empty">Currently Empty: <span
-                                                            class="woocommerce-Price-amount amount"><span
-                                                                class="woocommerce-Price-currencySymbol">&#36;</span>0</span>
-                                                    </p>
-                                                    <div class="buttons clearfix">
-                                                        <a href="shop/index.htm"
-                                                            class="btn btn-block btn-primary wc-forward">Continue
-                                                            shopping</a>
-                                                    </div>
-                                                </div><!-- end product list -->
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="account-login">
-                                    <ul class="login-account">
-                                        <li class="icon-log"><a href="#apus_login_forgot_tab"
-                                                class="apus-user-login wel-user"><i class="ti-user"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('layouts.partials.mobileheader')
+        @include('layouts.partials.header')
 
 
 
 
 
-        <div id="apus-header" class="apus-header visible-lg header-1-78">
-            <div class="main-sticky-header">
-                <div data-elementor-type="wp-post" data-elementor-id="78" class="elementor elementor-78"
-                    data-elementor-settings="[]">
-                    <div class="elementor-inner">
-                        <div class="elementor-section-wrap">
-                            <section
-                                class="elementor-element elementor-element-5067a0c elementor-section-stretched elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
-                                data-id="5067a0c" data-element_type="section"
-                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-container elementor-column-gap-no">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-c7da690 elementor-column elementor-col-25 elementor-top-column"
-                                            data-id="c7da690" data-element_type="column">
-                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-922b374 elementor-widget elementor-widget-apus_logo"
-                                                        data-id="922b374" data-element_type="widget"
-                                                        data-widget_type="apus_logo.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="wrapper-logo ">
 
-                                                                <a class="logo" href="index.htm">
 
-                                                                    <span class="logo-main has-transparent-logo">
-                                                                        <img width="160" height="32"
-                                                                            src="/assets/findus/wp-content/uploads/2020/01/logo-3.png"
-                                                                            class="attachment-full size-full" alt="">
-                                                                    </span>
-                                                                    <span class="transparent-logo">
-                                                                        <img width="160" height="32"
-                                                                            src="/assets/findus/wp-content/uploads/2020/01/logo-light-2.png"
-                                                                            class="attachment-full size-full" alt="">
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-23b386e elementor-column elementor-col-50 elementor-top-column"
-                                            data-id="23b386e" data-element_type="column">
-                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-e1b36ef elementor-widget elementor-widget-apus_primary_menu"
-                                                        data-id="e1b36ef" data-element_type="widget"
-                                                        data-widget_type="apus_primary_menu.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="main-menu menu-center ">
-                                                                <nav data-duration="400"
-                                                                    class="apus-megamenu slide animate navbar p-static"
-                                                                    role="navigation">
-                                                                    <div class="collapse navbar-collapse no-padding">
-                                                                        <ul id="primary-menu"
-                                                                            class="nav navbar-nav megamenu effect1">
-                                                                            <li
-                                                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-66 aligned-left">
-                                                                                <a href="#" class="dropdown-toggle"
-                                                                                    data-hover="dropdown"
-                                                                                    data-toggle="dropdown">Home <b
-                                                                                        class="ti-angle-down"></b></a>
-                                                                                <ul class="dropdown-menu">
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-48 current_page_item active menu-item-75 active  active  aligned-left">
-                                                                                        <a href="index.htm">Home 1</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73 aligned-left">
-                                                                                        <a href="home-2/index.htm">Home
-                                                                                            2</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72 aligned-left">
-                                                                                        <a href="home-3/index.htm">Home
-                                                                                            3</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71 aligned-left">
-                                                                                        <a href="home-4/index.htm">Home
-                                                                                            4</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251 aligned-left">
-                                                                                        <a href="home-5/index.htm">Home
-                                                                                            5</a></li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-307 aligned-left">
-                                                                                <a href="listings/index.htm"
-                                                                                    class="dropdown-toggle"
-                                                                                    data-hover="dropdown"
-                                                                                    data-toggle="dropdown">Listings <b
-                                                                                        class="ti-angle-down"></b></a>
-                                                                                <ul class="dropdown-menu">
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621 aligned-left">
-                                                                                        <a
-                                                                                            href="listing-full/index.htm">Listings
-                                                                                            &#8211; Full</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-615 aligned-left">
-                                                                                        <a
-                                                                                            href="listing-with-sidebar/index.htm">Listings
-                                                                                            &#8211; Sidebar</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616 aligned-left">
-                                                                                        <a
-                                                                                            href="listing-half-map/index.htm">Listings
-                                                                                            &#8211; Half Map</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 aligned-left">
-                                                                                        <a
-                                                                                            href="listing-list/index.htm">Listings
-                                                                                            &#8211; List</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-618 aligned-left">
-                                                                                        <a
-                                                                                            href="listing/spotlight-club/index.htm">Listing
-                                                                                            Detail</a></li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li
-                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-70 aligned-left">
-                                                                                <a href="blog/index.htm"
-                                                                                    class="dropdown-toggle"
-                                                                                    data-hover="dropdown"
-                                                                                    data-toggle="dropdown">Blog <b
-                                                                                        class="ti-angle-down"></b></a>
-                                                                                <ul class="dropdown-menu">
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-623 aligned-left">
-                                                                                        <a
-                                                                                            href="blog/index-1.htm?_preset=1580455841">Blog
-                                                                                            &#8211; Sidebar</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-624 aligned-left">
-                                                                                        <a
-                                                                                            href="blog/index-2.htm?_preset=1580455912">Blog
-                                                                                            &#8211; Full</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-622 aligned-left">
-                                                                                        <a
-                                                                                            href="blog/index-3.htm?_preset=1580455697">Blog
-                                                                                            &#8211; List</a></li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-625 aligned-left">
-                                                                                        <a
-                                                                                            href="why-people-use-listing-hub/index.htm">Blog
-                                                                                            Detail</a></li>
-                                                                                </ul>
-                                                                            </li>
-                                                                            <li
-                                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-76 aligned-left">
-                                                                                <a href="#" class="dropdown-toggle"
-                                                                                    data-hover="dropdown"
-                                                                                    data-toggle="dropdown">Pages <b
-                                                                                        class="ti-angle-down"></b></a>
-                                                                                <ul class="dropdown-menu">
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387 aligned-left">
-                                                                                        <a
-                                                                                            href="shop/index.htm">Shop</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 aligned-left">
-                                                                                        <a
-                                                                                            href="contact/index.htm">Contact</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69 aligned-left">
-                                                                                        <a
-                                                                                            href="pricing/index.htm">Pricing</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68 aligned-left">
-                                                                                        <a
-                                                                                            href="404-2/index.htm">404</a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </nav>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d60fa60 elementor-column elementor-col-25 elementor-top-column"
-                                            data-id="d60fa60" data-element_type="column">
-                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-44254a0 elementor-widget__width-auto elementor-widget elementor-widget-apus_user_info"
-                                                        data-id="44254a0" data-element_type="widget"
-                                                        data-widget_type="apus_user_info.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="account-login">
-                                                                <ul class="login-account">
-                                                                    <li class="icon-log"><a
-                                                                            href="#apus_login_forgot_tab"
-                                                                            class="apus-user-login"><i
-                                                                                class="ti-user"></i></a></li>
-                                                                    <li><a href="#apus_login_forgot_tab"
-                                                                            class="apus-user-login wel-user">Sign
-                                                                            in</a></li>
-                                                                    <li class="space">or</li>
-                                                                    <li><a href="#apus_register_tab"
-                                                                            class="apus-user-register wel-user">Register</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-56eb1e6 elementor-widget__width-auto elementor-widget elementor-widget-apus_listings_add_listing_btn"
-                                                        data-id="56eb1e6" data-element_type="widget"
-                                                        data-widget_type="apus_listings_add_listing_btn.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="add-listing ">
-                                                                <a class="btn btn-theme"
-                                                                    href="submit-listing/index.htm"><i
-                                                                        class="ti-plus"></i>Add Listing</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+
+
+
+
+
+
+
+
+
         <div id="apus-main-content">
-         @yield('content')
+            @yield('content')
 
         </div><!-- .site-content -->
 
@@ -796,24 +437,29 @@
                                                                                 class="menu">
                                                                                 <li id="menu-item-83"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83 aligned-left">
-                                                                                    <a href="#">Support</a></li>
+                                                                                    <a href="#">Support</a>
+                                                                                </li>
                                                                                 <li id="menu-item-86"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86 aligned-left">
-                                                                                    <a href="#">Contact Us</a></li>
+                                                                                    <a href="#">Contact Us</a>
+                                                                                </li>
                                                                                 <li id="menu-item-84"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84 aligned-left">
-                                                                                    <a href="#">How It Works</a></li>
+                                                                                    <a href="#">How It Works</a>
+                                                                                </li>
                                                                                 <li id="menu-item-87"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87 aligned-left">
                                                                                     <a href="#">Privacy &#038;
-                                                                                        Security</a></li>
+                                                                                        Security</a>
+                                                                                </li>
                                                                                 <li id="menu-item-88"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88 aligned-left">
                                                                                     <a href="#">Terms of Service</a>
                                                                                 </li>
                                                                                 <li id="menu-item-148"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148 aligned-left">
-                                                                                    <a href="#">Communications</a></li>
+                                                                                    <a href="#">Communications</a>
+                                                                                </li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -1199,8 +845,8 @@
                 </div>
                 <!-- Social -->
                 <ul class="nav nav-tabs">
-                    <li class="active"><a id="apus_login_forgot_tab" class="text-theme"
-                            data-toggle="tab" href="#apus_login_forgot_form">Login</a></li>
+                    <li class="active"><a id="apus_login_forgot_tab" class="text-theme" data-toggle="tab"
+                            href="#apus_login_forgot_form">Login</a></li>
                     <li><a id="apus_register_tab" class="text-theme" data-toggle="tab"
                             href="#apus_register_form">Register</a></li>
                 </ul>
