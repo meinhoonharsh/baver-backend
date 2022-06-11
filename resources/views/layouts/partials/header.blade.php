@@ -201,15 +201,15 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="account-login">
                                                         <ul class="login-account">
-                                                            <li class="icon-log"><a href="#apus_login_forgot_tab"
-                                                                    class="apus-user-login"><i
-                                                                        class="ti-user"></i></a></li>
-                                                            <li><a href="#apus_login_forgot_tab"
+                                                            <li>
+                                                                {{-- <a href="#apus_login_forgot_tab"
                                                                     class="apus-user-login wel-user">Sign
-                                                                    in</a></li>
-                                                            <li class="space">or</li>
-                                                            <li><a href="#apus_register_tab"
-                                                                    class="apus-user-register wel-user">Register</a>
+                                                                    in</a> --}}
+                                                            </li>
+                                                            {{-- <li class="space">or</li> --}}
+                                                            <li>
+                                                                {{-- <a href="#apus_register_tab"
+                                                                    class="apus-user-register wel-user">Register</a> --}}
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -220,8 +220,8 @@
                                                 data-widget_type="apus_listings_add_listing_btn.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="add-listing ">
-                                                        <a class="btn btn-theme" href="submit-listing/index.htm"><i
-                                                                class="ti-plus"></i>Add Listing</a>
+                                                        <a class="btn btn-theme" href="http://apply.baver.in"><i
+                                                                class="ti-plus"></i>Apply as Intern</a>
                                                     </div>
                                                 </div>
                                             </div>

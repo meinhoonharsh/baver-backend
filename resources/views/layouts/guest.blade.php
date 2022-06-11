@@ -1,3 +1,34 @@
+{{-- Write Baver in HTML Comments --}}
+
+<!--
+
+    =========
+    --Baver--
+    =========
+
+    Congratulation! You are selected for the next round of joining the Baver's family.
+
+    Send your resume to dipanshu@baver.in with the Screenshot
+    
+    You will be contacted by the Baver's family soon.
+
+    Happy Bavering!
+
+    --Baver--
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 
@@ -8,7 +39,7 @@
     <link rel="pingback" href="https://www.demoapus-wp1.com/findus/xmlrpc.php">
 
 
-    <title>Findus &#8211; Just another WordPress site</title>
+    <title>Baver &#8211; Your Offers Buddy</title>
     <link rel='dns-prefetch' href='//maps.googleapis.com'>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'>
     <link rel='dns-prefetch' href='//s.w.org'>
@@ -389,14 +420,13 @@
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                    <div>We are Themez Hub A team of clean, creative
-                                                                        &amp; professionals delivering world-class HTML
-                                                                        Templates to build a better &amp; smart web.
+                                                                    <div>We are Baver, A platform that bridges the gap
+                                                                        between the best offers and potential customers.
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-ba02fcf elementor-widget elementor-widget-button"
+                                                        {{-- <div class="elementor-element elementor-element-ba02fcf elementor-widget elementor-widget-button"
                                                             data-id="ba02fcf" data-element_type="widget"
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
@@ -415,7 +445,7 @@
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> --}}
                                                     </div>
                                                 </div>
                                             </div>
@@ -437,13 +467,15 @@
                                                                                 class="menu">
                                                                                 <li id="menu-item-83"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83 aligned-left">
-                                                                                    <a href="#">Support</a>
+                                                                                    <a href="http://apply.baver.in">Apply
+                                                                                        as Intern</a>
                                                                                 </li>
                                                                                 <li id="menu-item-86"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86 aligned-left">
-                                                                                    <a href="#">Contact Us</a>
+                                                                                    <a href="http://join.baver.in">Join
+                                                                                        as Venture</a>
                                                                                 </li>
-                                                                                <li id="menu-item-84"
+                                                                                {{-- <li id="menu-item-84"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84 aligned-left">
                                                                                     <a href="#">How It Works</a>
                                                                                 </li>
@@ -459,7 +491,7 @@
                                                                                 <li id="menu-item-148"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148 aligned-left">
                                                                                     <a href="#">Communications</a>
-                                                                                </li>
+                                                                                </li> --}}
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -488,33 +520,43 @@
                                                             data-widget_type="apus_icon_list.default">
                                                             <div class="elementor-widget-container">
                                                                 <ul class="elementor-icon-list-items">
-                                                                    <li class="elementor-icon-list-item">
+                                                                    {{-- <li class="elementor-icon-list-item">
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i class="ti-location-pin"></i>
                                                                         </span>
                                                                         <span class="elementor-icon-list-text">7744
                                                                             North, New York</span>
+                                                                    </li> --}}
+                                                                    <li class="elementor-icon-list-item">
+                                                                        <a href="mailto:contact@baver.in">
+
+                                                                            <span class="elementor-icon-list-icon">
+                                                                                <i class="ti-email"></i>
+                                                                            </span>
+                                                                            <span
+                                                                                class="elementor-icon-list-text">contact@baver.in</span>
+                                                                        </a>
                                                                     </li>
                                                                     <li class="elementor-icon-list-item">
-                                                                        <span class="elementor-icon-list-icon">
-                                                                            <i class="ti-email"></i>
-                                                                        </span>
-                                                                        <span
-                                                                            class="elementor-icon-list-text">support@example.com</span>
+                                                                        <a href="tel:+918435624478">
+
+                                                                            <span class="elementor-icon-list-icon">
+                                                                                <i class="ti-mobile"></i>
+                                                                            </span>
+                                                                            <span class="elementor-icon-list-text">+91
+                                                                                84356
+                                                                                24478</span>
+                                                                        </a>
                                                                     </li>
                                                                     <li class="elementor-icon-list-item">
-                                                                        <span class="elementor-icon-list-icon">
-                                                                            <i class="ti-mobile"></i>
-                                                                        </span>
-                                                                        <span class="elementor-icon-list-text">+91 123
-                                                                            456 789</span>
-                                                                    </li>
-                                                                    <li class="elementor-icon-list-item">
-                                                                        <span class="elementor-icon-list-icon">
-                                                                            <i class="ti-world"></i>
-                                                                        </span>
-                                                                        <span
-                                                                            class="elementor-icon-list-text">www.apusthemes.com</span>
+                                                                        <a href="https://baver.in">
+
+                                                                            <span class="elementor-icon-list-icon">
+                                                                                <i class="ti-world"></i>
+                                                                            </span>
+                                                                            <span
+                                                                                class="elementor-icon-list-text">https://baver.in</span>
+                                                                        </a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -524,7 +566,7 @@
                                                             data-widget_type="social-icons.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-social-icons-wrapper">
-                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-5816483"
+                                                                    {{-- <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-5816483"
                                                                         href="#" target="_blank">
                                                                         <span
                                                                             class="elementor-screen-only">Facebook-f</span>
@@ -538,17 +580,17 @@
                                                                         href="#" target="_blank">
                                                                         <span
                                                                             class="elementor-screen-only">Google-plus-g</span>
-                                                                        <i class="fab fa-google-plus-g"></i> </a>
+                                                                        <i class="fab fa-google-plus-g"></i> </a> --}}
                                                                     <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-805629b"
                                                                         href="#" target="_blank">
                                                                         <span
                                                                             class="elementor-screen-only">Instagram</span>
                                                                         <i class="fab fa-instagram"></i> </a>
-                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-fb4e9d5"
+                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-fb4e9d5"
                                                                         href="#" target="_blank">
                                                                         <span
-                                                                            class="elementor-screen-only">Pinterest</span>
-                                                                        <i class="fab fa-pinterest"></i> </a>
+                                                                            class="elementor-screen-only">LinkedIn</span>
+                                                                        <i class="fab fa-linkedin"></i> </a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -573,9 +615,9 @@
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                    <p>At Vero Eos Et Accusamus Et Iusto Odio
-                                                                        Dignissimos Ducimus Qui Blanditiis. Lorem ipsum
-                                                                        dolor sit amet, consectetur.</p>
+                                                                    <p>Subscribe to our newsletter and keep yourself
+                                                                        updated from all the on going deal around you
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -652,9 +694,9 @@
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                    <div>Copyright@ 2020 Listing Hub Powered By <a
-                                                                            class="text-white"
-                                                                            href="#">ApusTheme</a></div>
+                                                                    <div>
+                                                                        Copyright © 2020 All rights reserved. | Baver
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
